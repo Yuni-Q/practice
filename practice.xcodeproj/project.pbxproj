@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0B639B2611C01100E522EF /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0B639A2611C01100E522EF /* MyTextView.swift */; };
+		AA0B639C2611C01100E522EF /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0B639A2611C01100E522EF /* MyTextView.swift */; };
 		AA42A44A2611852200C6B346 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A4492611852200C6B346 /* Tests_iOS.swift */; };
 		AA42A4552611852200C6B346 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A4542611852200C6B346 /* Tests_macOS.swift */; };
 		AA42A4572611852200C6B346 /* practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A42E2611852200C6B346 /* practiceApp.swift */; };
@@ -15,6 +17,8 @@
 		AA42A45A2611852200C6B346 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A42F2611852200C6B346 /* ContentView.swift */; };
 		AA42A45B2611852200C6B346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA42A4302611852200C6B346 /* Assets.xcassets */; };
 		AA42A45C2611852200C6B346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA42A4302611852200C6B346 /* Assets.xcassets */; };
+		AA42A4702611860300C6B346 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A46F2611860300C6B346 /* MyVstackView.swift */; };
+		AA42A4712611860300C6B346 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A46F2611860300C6B346 /* MyVstackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0B639A2611C01100E522EF /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		AA42A42E2611852200C6B346 /* practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceApp.swift; sourceTree = "<group>"; };
 		AA42A42F2611852200C6B346 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA42A4302611852200C6B346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		AA42A4502611852200C6B346 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA42A4542611852200C6B346 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AA42A4562611852200C6B346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA42A46F2611860300C6B346 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				AA42A42E2611852200C6B346 /* practiceApp.swift */,
 				AA42A42F2611852200C6B346 /* ContentView.swift */,
+				AA0B639A2611C01100E522EF /* MyTextView.swift */,
+				AA42A46F2611860300C6B346 /* MyVstackView.swift */,
 				AA42A4302611852200C6B346 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA42A4592611852200C6B346 /* ContentView.swift in Sources */,
+				AA0B639B2611C01100E522EF /* MyTextView.swift in Sources */,
 				AA42A4572611852200C6B346 /* practiceApp.swift in Sources */,
+				AA42A4702611860300C6B346 /* MyVstackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA42A45A2611852200C6B346 /* ContentView.swift in Sources */,
+				AA0B639C2611C01100E522EF /* MyTextView.swift in Sources */,
 				AA42A4582611852200C6B346 /* practiceApp.swift in Sources */,
+				AA42A4712611860300C6B346 /* MyVstackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

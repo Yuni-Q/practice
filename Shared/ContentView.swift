@@ -8,9 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State
+    private var isActivated: Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            VStack {
+                HStack {
+                    MyVstackView()
+                    MyVstackView()
+                    MyVstackView()
+                }
+                .padding(isActivated ? 50.0 : 10.0)
+                .background(isActivated ? Color.yellow : Color.black)
+                .onTapGesture {
+                    withAnimation {
+                        self.isActivated.toggle()
+                    }
+                }
+                NavigationLink(destination: MyTextView()) {
+                    Text("네비게이션")
+                        .font(.system(size: 40))
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }
+            }
+            
+        }
+        
     }
 }
 
